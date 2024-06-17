@@ -85,6 +85,8 @@ python manage.py runserver
 * Пример POST-запроса для добавления публикации:
 ```
 .../api/v1/posts/
+```
+```
 {
     "text": "string",
     "image": "string",
@@ -135,7 +137,8 @@ python manage.py runserver
 * Пример POST-запроса для добавления комментария к конкретной публикаций:
 ```
 ...api/v1/posts/{post_id}/comments/)
-
+```
+```
 {
     "text": "string"
 }
@@ -151,6 +154,5 @@ python manage.py runserver
 }
 ```
 
-_Примеры других запросов можно посмотреь по этому адресу:_
-http://127.0.0.1:8000/redoc/
+_Примеры других запросов можно посмотреь по этому адресу: http://127.0.0.1:8000/redoc/_
 
