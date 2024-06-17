@@ -14,7 +14,6 @@ router_yatube_v1.register(
 
 api_urls = [
     path('', include(router_yatube_v1.urls)),
-    path('', include('djoser.urls')),
     path('', include('djoser.urls.jwt')),
 ]
 
