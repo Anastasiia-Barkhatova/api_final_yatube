@@ -21,6 +21,7 @@ class CommentAdmin(admin.ModelAdmin):
     pass
 
 
+
 @admin.register(Follow)
 class FollowAdmin(admin.ModelAdmin):
     pass
